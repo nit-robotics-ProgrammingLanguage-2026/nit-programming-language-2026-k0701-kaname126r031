@@ -8,12 +8,12 @@ int main(void)
     int result;
     scanf("%d", &n);
     result = func2(10, n);
-    printf("%d", result);
+    printf("%d\n", result);
     return 0;
 }
 
 int func2(int a, int b)
 {
     /* TODO: a から b を引いた値を返す */
-    return 0;
+    return a - b;
 }
